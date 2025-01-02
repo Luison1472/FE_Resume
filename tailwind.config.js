@@ -20,23 +20,22 @@ export default {
         background: '#00b4d8',
       },
       fontFamily: {
-        spoqa: ['SpoqaHanSansNeo-Regular'],
+        spoqa: ['Spoqa Han Sans Neo', 'sans-serif'],
         spoqaMedium: ['SpoqaHanSansNeo-Medium'],
         spoqaBold: ['SpoqaHanSansNeo-Bold'],
       },
       screens: {
-        ss: '480px', // 480px 이상일 때 적용
-        md: '768px', // 768px 이상일 때 적용
-        lg: '1300px', // 2100px 이상일 때 적용
+        ss: '480px',
+        md: '768px',
+        lg: '1300px',
       },
-      // 사용자 정의 유틸리티 추가
       fontSize: {
         smoother: ['100%', { WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }],
       },
-      backfaceVisibility: { // backface-visibility 유틸리티 추가
+      backfaceVisibility: {
         hidden: 'backface-visibility: hidden;',
       },
-      translate: { // 3D 변환을 위한 translate 설정 추가
+      translate: {
         '3d': 'translate3d(0, 0, 0)',
       },
     },
