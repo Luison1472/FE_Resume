@@ -37,7 +37,7 @@ function Project() {
               <span className="bg-sky-600 p-1 rounded-md text-white">팀 프로젝트</span>
             </div>
                     <p className="mb-2">기간: 2024.11 ~ ing</p>
-                    <p>업비트 거래소와 연동한 자동 매도/매수 프로그램</p>
+                    <p> 개요 : 업비트 거래소와 연동한 자동 매도/매수 프로그램</p>
                     <ul className="list-disc pl-5 mt-2">
                         <li>내용 작성하기</li>
                     </ul>
