@@ -73,7 +73,7 @@ function Profile() {
                             <h2 className="text-2xl font-semibold border-b pb-2">경력</h2>
                             <ul className="space-y-2">
                                 <li>
-                                    <strong>Planetarium Labs Korea (인턴) :</strong> 2024.11.11 ~ 2024.12.13 (1개월 / 미래일경험사업)
+                                    <strong>Planetarium Labs Korea (인턴) :</strong> 2024.11.11 ~ 2024.12.13 (1개월 / 미래내일경험사업)
                                 </li>
                             </ul>
                         </div>
