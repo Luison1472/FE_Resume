@@ -3,7 +3,7 @@ import Profile from '/src/pages/Profile.jsx';
 import Project from '/src/pages/Project.jsx';
 import Footer from '/src/components/Layouts/Footer.jsx';
 import ScrollProgress from '/src/components/Layouts/ScrollProgress.jsx';
-function Portfolio() {
+function Resume() {
   return (
     <>
 
@@ -17,4 +17,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Resume;

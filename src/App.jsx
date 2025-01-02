@@ -1,11 +1,11 @@
-import Portfolio from "./pages/Portfolio"
+import Resume from "./pages/Resume"
 
 function App() {
 
 
   return (
     <>
-      <Portfolio/>
+      <Resume/>
     </>
   )
 }
