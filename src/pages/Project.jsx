@@ -26,10 +26,13 @@ function Project() {
                 <div className="col-span-12 border-t-1 border border-gray-500 my-6"></div>
 
                 {/* 프로젝트 경험 */}
-                <div className="col-span-4 text-left font-bold text-lg border-r pr-4">프로젝트 경험</div>
+          <div className="col-span-4 text-left font-bold text-lg border-r pr-4">
+            <p className="mb-36 pb-5">진행중인 프로젝트</p>
+            <p>진행한 프로젝트</p>
+                </div>
+                
                 <div className="col-span-8 ml-32">
             <div className="align-middle mb-2">
-              <p className="text-xl mb-3">진행중인 프로젝트</p>
               <span className="font-semibold mr-2">Auto_Crypto (오토 코인)</span>
               <span className="bg-sky-600 p-1 rounded-md text-white">팀 프로젝트</span>
             </div>
@@ -41,7 +44,6 @@ function Project() {
                     <p className="mt-2">주요 기술:<br/> React.js, JavaScript, MongoDB</p>
             <div className="border-t-2 border border-gray-600 my-6"></div>
             
-            <p className="text-bold  mb-3 text-xl">진행한 프로젝트</p>
             {/* 9C-Node-Monitoring */}
             <div className="align-middle mb-2">
               <span className="font-semibold mr-2">9C-Node-Monitoring (트랜잭션 관리 서버 대시보드)</span>
@@ -92,7 +94,6 @@ function Project() {
                         <li>Pagination과 React-Router-Dom 동적 라우팅 설계</li>
                         <li>Styled-Components로 UI 구현 및 디자인</li>
                     </ul>
-                    <p className="mt-2">개인 프로젝트</p>
                     <p className="mt-2">주요 기술:<br/> React, Firebase, Context-API, Styled-Components</p>
 
                     
