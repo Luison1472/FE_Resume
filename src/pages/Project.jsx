@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project() {
     return (
-        <section id="resume" className="py-12 text-left text-black">
+        <section id="resume" className="py-5 text-left text-black">
             <div className="max-w-6xl mx-auto bg-white shadow-sm rounded-lg p-6 grid grid-cols-12 gap-8">
                 {/* 보유 기술 */}
                 <div className="col-span-4 text-left font-bold text-lg border-r pr-4">보유 기술</div>
@@ -27,7 +27,7 @@ function Project() {
 
                 {/* 프로젝트 경험 */}
           <div className="col-span-4 text-left font-bold text-lg border-r pr-4">
-            <p className="mb-36 pb-5">진행중인 프로젝트</p>
+            <p className="mb-96 pb-20">진행중인 프로젝트</p>
             <p>진행한 프로젝트</p>
                 </div>
                 
@@ -36,10 +36,13 @@ function Project() {
               <span className="font-semibold mr-2">Auto_Crypto (오토 코인)</span>
               <span className="bg-sky-600 p-1 rounded-md text-white">팀 프로젝트</span>
             </div>
-                    <p className="mb-2">기간: 2024.11 ~ ing</p>
+                    <p className="mb-2">기간: 2025.01 ~ ing</p>
                     <p> 개요 : 업비트 거래소와 연동한 자동 매도/매수 프로그램</p>
                     <ul className="list-disc pl-5 mt-2">
-                        <li>내용 작성하기</li>
+                        <li>백엔드 API 연동 및 데이터 페칭</li>
+                        <li>서비스 UI 및 웹 디자인</li>
+                        <li>업비트 계정 정보 & 캔들 데이터 및 차트 조회</li>
+                        <li>추후 진행 할 사항 회의 중.</li>
                     </ul>
                     <p className="mt-2">주요 기술:<br/> React.js, JavaScript, MongoDB</p>
             <div className="border-t-2 border border-gray-600 my-6"></div>
@@ -53,11 +56,11 @@ function Project() {
                     <p>개요: 트랜잭션 관리 및 대시보드 기능을 포함한 백엔드 서비스 구축</p>
                     <ul className="list-disc pl-5 mt-2">
                         <li>RPC Endpoints를 통해 트랜잭션 상태 확인 및 데이터 수집</li>
-                        <li>AWS Lambda에서 EC2로 마이그레이션하여 성능 최적화</li>
-                        <li>MySQL 데이터베이스 구조 및 쿼리 최적화</li>
+                        <li>PM2 & CronJob 기반 트랜잭션 서비스 구축 및 모니터링 로직 개선</li>
+                        <li>mySQL WorkBench를 통해 데이터 상태 확인 및 처리</li>
                         <li>대시보드 UI 개선 및 트랜잭션 상태 시각화</li>
                     </ul>
-                    <p className="mt-2">주요 기술:<br/> Nest.js, AWS Lambda/EC2, MySQL, Docker</p>
+                    <p className="mt-2">주요 기술:<br/> Nest.js, AWS Lambda, PM2, MySQL, Docker</p>
                     <div className="border-t-1 border border-gray-400 my-6"></div>
 
             {/* Go Together */}
