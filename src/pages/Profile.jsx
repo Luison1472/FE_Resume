@@ -15,7 +15,7 @@ function Profile() {
                         </p>
                         <div className="mt-4">
                             <a
-                                href="https://my-portfolio-kappa-murex.vercel.app/"
+                                href="https://portfolio-toggle-x.vercel.app/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-sky-600"
