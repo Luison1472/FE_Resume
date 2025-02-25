@@ -6,7 +6,7 @@ function Project() {
             <div className="max-w-6xl mx-auto bg-white shadow-sm rounded-lg p-6 grid grid-cols-12 gap-8">
                 {/* 보유 기술 */}
                 <div className="col-span-4 text-left font-bold text-lg border-r pr-4">보유 기술</div>
-                <div className="col-span-8 ml-32">
+                <div className="col-span-8 ml-14">
                     <h3 className="font-bold mb-2">Programming Languages</h3>
                     <p>JavaScript (ES6), HTML5, CSS3</p> 
 
@@ -31,7 +31,7 @@ function Project() {
             <p>진행한 프로젝트</p>
                 </div>
                 
-                <div className="col-span-8 ml-32">
+                <div className="col-span-8 ml-14">
             <div className="align-middle mb-2">
               <span className="font-semibold mr-2">Auto_Crypto (오토 코인)</span>
               <span className="bg-sky-600 p-1 rounded-md text-white">팀 프로젝트</span>

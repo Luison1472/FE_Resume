@@ -5,12 +5,16 @@
 #root {
   font-family: "GmarketSansMedium", "Arial Narrow", Arial, sans-serif;
   font-size: small;
-  max-width: 900px;
+  width: 210mm;
+  min-height: 297mm;
   margin: 0 auto;
   padding: 0rem;
   text-align: center;
   box-sizing: border-box;
   background-color: white;
+  page-break-before: auto;
+  page-break-after: auto;
+  page-break-inside: avoid;
 }
 
 @font-face {
